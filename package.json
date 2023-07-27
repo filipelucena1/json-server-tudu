@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "tsc",
-    	"start": "node dist/server.js",
+    	"start": "node dist/src/server.js",
 		"test": "jest --verbose --runInBand",
 		"typeorm": "typeorm-ts-node-commonjs",
 		"migration:prod": "yarn typeorm migration:run -d dist/src/data-source.js",
